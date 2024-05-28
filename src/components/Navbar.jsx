@@ -5,11 +5,24 @@ import  kd_logo  from '../assets/kd_logo.png';
 
 // Styled components
 const Header = styled.header`
-  display: flex;
-  align-items: center;
+   display: flex;
   justify-content: space-between;
-  padding: 1rem;
-  background-color: #fff; // Adjust background color if necessary
+  align-items: center;
+  padding: 1rem 2rem; /* px-8 and py-4 */
+  max-width: 80rem; /* max-w-5xl */
+  margin: 0 auto; /* mx-auto */
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  z-index: 10;
+  right: 0;
+  left: 0;
+
+  @media (min-width: 640px) {
+    padding-left: 4rem; /* sm:px-16 */
+    padding-right: 4rem; /* sm:px-16 */
+  }
+  
 `;
 
 const Logo = styled.img`
