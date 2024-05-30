@@ -56,7 +56,7 @@ const Footer = () => {
 
       <FooterContent>
         <FooterText>
-          © 2023 <strong>Adrian Hajdin</strong>. All rights reserved.
+          © 2024 <strong>Kirondeep Bhattacharjee</strong>. All rights reserved.
         </FooterText>
 
         <SocialLinksContainer>
