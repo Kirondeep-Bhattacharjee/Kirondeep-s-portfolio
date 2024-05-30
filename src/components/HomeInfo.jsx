@@ -7,7 +7,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <Heading>
         Hi, I'm
-        <Span>Kirondeep Bhattacharjee</Span>
+        <Span>Kirondeep</Span>
         👋
         <br />
         A final year CSE student from SRMIST

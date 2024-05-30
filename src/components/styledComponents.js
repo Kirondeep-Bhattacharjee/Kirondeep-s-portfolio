@@ -2,31 +2,22 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Heading = styled.h1`
-  @media (min-width: 640px) {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+   @media (min-width: 640px) {
+    font-size: 1.25rem; /* sm:text-xl */
+    line-height: 1.75rem; /* sm:leading-snug */
   }
   text-align: center;
-  color: white;
-  margin: 0 1.25rem;
-  background-color: #2b77e7;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  max-width: 32rem;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border-radius: 10px;
-  border: #2b77e7;
+  background-color: #2b77e7; /* neo-brutalism-blue */
+  padding: 1rem 2rem; /* py-4 px-8 */
+  color: white; /* text-white */
+  margin: 1.25rem; /* mx-5 */
+  border-radius: 10px; /* Custom addition to match neo-brutalism-blue class */
 `;
 
 export const Span = styled.span`
   font-weight: 800;
   margin: 0 0.5rem;
-  color: black;
+  color: white;
 `;
 
 export const InfoBox = styled.div`
