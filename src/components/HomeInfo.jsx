@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <InfoBox>
         <Paragraph>
-          Worked with many companies <br /> and picked up many skills along the way
+          Tried my best to work with the latest technologies  <br /> and picked up many skills along the way
         </Paragraph>
 
         <StyledLink to='/about'>
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <InfoBox>
         <Paragraph>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Built multiple projects over the years. <br /> Curious about them?
         </Paragraph>
 
         <StyledLink to='/projects'>
